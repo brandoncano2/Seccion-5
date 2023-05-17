@@ -94,7 +94,15 @@ p{
         .column {
           flex: 100%;
         }
-      
+      }
+
+        @media (max-width: 600px) {
+          .video {
+            display: flex;
+            padding: 10px;
+            gap: 5px;
+            max-width: 95%;
+          }
       
         .nav-links {
           display: none;

@@ -144,3 +144,7 @@ p{
       header{
         display: flex;
       }
+
+      .getting{
+        text-align: center;
+      }
